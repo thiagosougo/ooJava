@@ -1,7 +1,7 @@
 package Carro;
 
 public class Ferrari extends Carro {
-    Ferrari(int velocidadeMaxima) {
+    public Ferrari(int velocidadeMaxima) {
         super(velocidadeMaxima);
         delta = 15;
     }

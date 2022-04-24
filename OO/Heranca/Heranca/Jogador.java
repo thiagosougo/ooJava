@@ -1,16 +1,16 @@
 package Heranca;
 
 public class Jogador {
-    int x;
-    int y;
-    int vida = 100;
+    public int x;
+    public int y;
+    public int vida = 100;
 
-    Jogador(int x, int y){
+    public Jogador(int x, int y){
         this.x = x;
         this.y = y;
     }
 
-    boolean atacar(Jogador oponente) {
+    public boolean atacar(Jogador oponente) {
         int deltaX = Math.abs(x - oponente.x);
         int deltaY = Math.abs(y - oponente.y);
 

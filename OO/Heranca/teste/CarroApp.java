@@ -1,4 +1,8 @@
-package Carro;
+package teste;
+
+import Carro.Carro;
+import Carro.Ferrari;
+import Carro.Fusquinha;
 
 public class CarroApp {
     public static void main(String[] args) {

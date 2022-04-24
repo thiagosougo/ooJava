@@ -2,7 +2,7 @@ package Carro;
 
 public class Fusquinha extends Carro {
 
-    Fusquinha(int velocidadeMaxima) {
+    public Fusquinha(int velocidadeMaxima) {
         super(velocidadeMaxima);
     }
 
